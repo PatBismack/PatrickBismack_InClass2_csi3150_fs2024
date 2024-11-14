@@ -4,7 +4,7 @@ const bButton = document.getElementById("b-btn");
 const cButton = document.getElementById("c-btn");
 
 // Root path for images
-const imgPath = "../assets/image/";
+const imgPath = "./assets/image/";
 
 // Add event listener to the Letter buttons
 aButton.addEventListener("click", isClicked);
