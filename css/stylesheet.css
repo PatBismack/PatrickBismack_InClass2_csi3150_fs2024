@@ -1,10 +1,96 @@
+/* Reset default styling */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 }
-.btn{
-    color: #0000FF;
+/* Style for Intro text */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+}
+header h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding: 30px 0;
+}
+header h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding: 30px 0;
+}
+/* Style for hero Section */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5px;
+    height: 65vh;
+}
+/* Style for a,b,c buttons */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+footer button{
+    background: #FFFFFF;
+    color: #000000;
+    font-weight: 300;
+    font-size: 48px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+}
+/* Style for card */
+#resultforA{
+    display: flex;
+  width: 33vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#resultforB{
+    display: flex;
+  width: 33vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#resultforC{
+    display: flex;
+  width: 33vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card button{
+    background: #2c73aa;
+    border: 1px solid #25608d;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 5px 75px;
+    margin: 10px;
 }
